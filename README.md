@@ -6,4 +6,3 @@
 * 6030478021 Melvin Macaranas
 * 6030482421 Yodsavee Lertthirathanaphong
 * 6031015221 David Tumcharoen
-Hello World!
