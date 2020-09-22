@@ -8,10 +8,16 @@ class MainContract:
 
     class View(BaseView):
 
-        # Your code here
-        pass
+        def update_view(self, items: List[Note]):
+            pass
 
     class Presenter(BasePresenter):
 
-        # Your code here
-        pass
+        def add_note(self, note: str):
+            pass
+
+        def get_all_notes(self):
+            pass
+
+        def clear_all(self):
+            pass
