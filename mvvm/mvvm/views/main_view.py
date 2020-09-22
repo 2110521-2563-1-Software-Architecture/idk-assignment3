@@ -57,10 +57,11 @@ class MainView(BaseView):
     def on_clear_all_button_clicked(self, e):
         # Clear all notes
         # Your code here
-        pass
+        self.mainView.clear_all()
 
     def on_add_note_button_clicked(self, e):
         content = self.note_input.GetValue()
         self.note_input.SetValue("")
         # Add new note
         # Your code here
+        self.mainView.add_note(content)
