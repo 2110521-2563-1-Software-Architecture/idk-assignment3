@@ -20,7 +20,7 @@ class MainView(BaseView):
     def bind_observable(self):
         # Subscribe to the notes behavior subject and update the view when the data change
         # Your code here
-        self.mainView.notes_behavior_subject.subscribe(lambda x: self.update_view(x))
+        self.mainView.note_subject.subscribe(lambda x: self.update_view(x))
 
     def init_ui(self):
         panel = wx.Panel(self)
