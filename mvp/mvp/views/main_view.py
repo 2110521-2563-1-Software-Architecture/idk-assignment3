@@ -46,11 +46,10 @@ class MainView(MainContract.View):
 
     def on_clear_all_button_clicked(self, e):
         # Clear all notes
-        # Your code here
-        pass
+        self.presenter.clear_all()
 
     def on_add_note_button_clicked(self, e):
         content = self.note_input.GetValue()
         self.note_input.SetValue("")
         # Add note
-        # Your code here
+        self.presenter.add_note(content)
