@@ -8,4 +8,4 @@
 * 6030482421 Yodsavee Lertthirathanaphong
 * 6031015221 David Tumcharoen
 ------------
-Assignment answers could be found on Assignment section of myCourseVile or in this repo.
+Assignment answers could be found on Assignment section of myCourseVille or in this repo.
